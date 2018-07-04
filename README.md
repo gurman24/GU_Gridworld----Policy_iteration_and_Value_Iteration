@@ -11,6 +11,11 @@ As discussed before, a **policy** can be defined as: a set of actions you have f
 
 - (https://user-images.githubusercontent.com/22970879/42268306-6577659e-7f38-11e8-9412-2471e7770874.png)
 
+<br/>
+
+This discussion would also be facilitated by having an understanding of States and State-to-State transitions which can be found here:
+https://github.com/gurman24/What-are-States-and-State-to-State-Transitions-
+
 
 
 
