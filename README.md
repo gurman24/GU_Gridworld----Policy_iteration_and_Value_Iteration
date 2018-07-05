@@ -6,7 +6,7 @@ In this blog we will discuss Policy Iteration and Value Iteration using GridWorl
 
 As discussed before, a **policy** can be defined as: a set of actions you have for a set of states. This is very important because policies dictate how Agents act in Environments when looking to maximize the reward they are looking for. See the following pictures for a deeper explanation: 
 
-- (https://user-images.githubusercontent.com/22970879/42120041-d7145168-7bd1-11e8-8f11-42546269f56e.png), .  
+- (https://user-images.githubusercontent.com/22970879/42120041-d7145168-7bd1-11e8-8f11-42546269f56e.png)  
 
 - (https://user-images.githubusercontent.com/22970879/42248842-ea5fcf0c-7ee4-11e8-87de-16cc93b80f42.PNG)
 
@@ -44,11 +44,16 @@ Now that we have a proper background, the question becomes _ _what is the differ
 - Value iteration starts at the "end" and then works backward, refining an estimate of either Q* [Q-Function] or V* [Value Function]. There is really no end, so it uses an arbitrary end point.[5]
 
 
+_ _How then does all the above relate to GridWorld_ _? 
+
+let us look at how to run the GridWorld problem in terms of how to actually _ _win the game_ _ :
 
 
 
 
 
+
+<br/>
 [1] = https://stackoverflow.com/questions/37370015/what-is-the-difference-between-value-iteration-and-policy-iteration 
 
 [2] = http://wiki.ubc.ca/Course:CPSC522/Markov_Decision_Process
