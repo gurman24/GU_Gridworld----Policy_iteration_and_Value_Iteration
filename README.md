@@ -1,3 +1,8 @@
+
+by Gregory Urman
+
+www.linkedin.com/in/gregoryurman  
+
 # GU_Gridworld----Policy_iteration_and_Value_Iteration
 
 _ _see footnotes at the bottom for website sources_ _
@@ -91,3 +96,9 @@ Above, that path is expressed in terms of decimals
 <br/>
 
 _ _Thank you very much for reading this blog. I hope you found it useful for learning more about Reinforcement Learning as part of Machine Learning. Onward and upward!_ _
+
+
+
+Gregory Urman
+
+www.linkedin.com/in/gregoryurman
