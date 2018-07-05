@@ -16,6 +16,25 @@ As discussed before, a **policy** can be defined as: a set of actions you have f
 This discussion would also be facilitated by having an understanding of States and State-to-State transitions which can be found here:
 https://github.com/gurman24/What-are-States-and-State-to-State-Transitions-
 
+<br/>
+Now that we have a proper background, the question becomes _ _what is the difference between Policy Iteration and Value Iteration?_ _
+
+- **Policy Iteration** includes: **policy evaluation** + **policy improvement**, and the two are repeated iteratively until policy converges.
+
+- **Value iteration** includes: **finding optimal value function** + one **policy extraction**. There is no repeat of the two because once the value function is optimal, then the policy out of it should also be optimal (i.e. converged). [1]
+
+- value iteration or **backward induction** is essentially a dynamic programming approach. Value iteration finds better policies by construction i.e. finding the best value function by iteratively updating the value function. [2]
+
+- 
+
+
+
+
+
+
+[1] = https://stackoverflow.com/questions/37370015/what-is-the-difference-between-value-iteration-and-policy-iteration 
+
+[2] = http://wiki.ubc.ca/Course:CPSC522/Markov_Decision_Process
 
 
 
@@ -28,4 +47,10 @@ https://github.com/gurman24/What-are-States-and-State-to-State-Transitions-
 
 
 
-...
+
+
+
+
+
+
+
