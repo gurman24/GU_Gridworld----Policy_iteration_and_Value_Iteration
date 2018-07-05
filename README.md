@@ -89,4 +89,4 @@ Above, that path is expressed in terms of decimals
 [6] = https://www.youtube.com/watch?v=glHKJ359Cnc
 
 <br/>
-_Thank you very much for reading this blog. I hope you found it useful for learning more about Reinforcement Learning as part of Machine Learning. Onward and upward!_
+_ _Thank you very much for reading this blog. I hope you found it useful for learning more about Reinforcement Learning as part of Machine Learning. Onward and upward!_ _
