@@ -48,6 +48,9 @@ _ _How then does all the above relate to GridWorld_ _?
 
 let us look at how to run the GridWorld problem in terms of how to actually _ _win the game_ _ :
 
+![grid world plus directions](https://user-images.githubusercontent.com/22970879/42313209-65c09134-7fff-11e8-9e06-2b0f66338aa4.png)
+
+
 
 
 
