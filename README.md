@@ -23,7 +23,7 @@ This discussion would also be facilitated by having an understanding of States a
 https://github.com/gurman24/What-are-States-and-State-to-State-Transitions-
 
 <br/>
-Now that we have a proper background, the question becomes _ _what is the difference between Policy Iteration and Value Iteration_ _ ?
+Now that we have a proper background, the question becomes: _ _What is the difference between Policy Iteration and Value Iteration?_ _ 
 
 - **Policy Iteration** includes: **policy evaluation** + **policy improvement**, and the two are repeated iteratively until policy converges.
 
