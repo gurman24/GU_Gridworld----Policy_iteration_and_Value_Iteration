@@ -26,12 +26,12 @@ Now that we have a proper background, the question becomes _ _what is the differ
 
 - value iteration or **backward induction** is essentially a dynamic programming approach. Value iteration finds better policies by construction i.e. finding the best value function by iteratively updating the value function. ... Value Iteration is moderately expensive. [time and resource consuming][2]
 
-- Advantages:
+- Advantages of Value Iteration:
   - Complexity of each iteration is [smaller than Policy Iteration]
   - Will converge towards optimal values
   - Value iteration is good for a small set of states because we will avoid computing very deep expectimax trees which run in exponential time
 
-- Disadvantages:
+- Disadvantages of Value Iteration:
   - Value iteration has to touch every state in every iteration and so if we have a large number of total states, value iteration suffers
   - It is slow because we have to consider all actions at every node, and often, there are many actions
   - The "max" at a state rarely changes. This means that the relative size of the Q values converge well before the values converge
@@ -51,7 +51,26 @@ let us look at how to run the GridWorld problem in terms of how to actually _ _w
 ![grid world plus directions](https://user-images.githubusercontent.com/22970879/42313209-65c09134-7fff-11e8-9e06-2b0f66338aa4.png)
 
 
+In short: Value Iteration helps us come up with a better value estimate of how to get to the goal value A.K.A _terminal state_ we a looking for. [Paraphrase] [6] :-) :-) :-) 
 
+![value iteration in number form](https://user-images.githubusercontent.com/22970879/42315362-803e7346-8004-11e8-86fa-781ad911d8e5.png)
+
+Above, that path is expressed in terms of decimals
+-------------------------------------------------------------------------------------------------------------------------------
+
+# Conclusion: 
+
+- Both Policy Iteration and Value Iteration help is find the Optimum Value Function
+
+- In terms of Grid World, that means the Optimum Path for winning the game, moving from one square to the next
+
+- Value Iteration works backwards, just like many other processes, especially Dynamic Programming.
+
+
+- as someone I know said it before: 
+  - **Value Iteration** = one iteration of policy evaluation followed by policy update, only! (like a mini-policy-evaluation to policy-iteration process) (Dr. Hart, Regis University, Denver CO)
+
+-------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -67,17 +86,7 @@ let us look at how to run the GridWorld problem in terms of how to actually _ _w
 
 [5] = http://artint.info/html/ArtInt_227.html
 
+[6] = https://www.youtube.com/watch?v=glHKJ359Cnc
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<br/>
+_Thank you very much for reading this blog. I hope you found it useful for learning more about Reinforcement Learning as part of Machine Learning. Onward and upward!_
